@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Labyrinth {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("C:\\Users\\Гость\\Documents\\NetBeansProjects\\Labyrinth\\file.txt");
+        File file = new File("C:\\Users\\Школа программиста\\Documents\\NetBeansProjects\\Labyrinth\\file.txt");
         //Scanner scanner = new Scanner(new FileInputStream(file));
         LabyrinthFactory1 factory= new LabyrinthFactory1();
         Lab lab=factory.CreateNew(file);
